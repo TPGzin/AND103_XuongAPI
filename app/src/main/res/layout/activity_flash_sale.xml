@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.fpt.lenovo.shoponline.activity.FlashSaleActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarflash"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colortoolbar"
+        app:title="Flash Sale"
+        app:titleTextColor="#fff"></androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imgflash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/flashsale" />
+
+</LinearLayout>
